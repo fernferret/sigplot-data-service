@@ -1,12 +1,27 @@
 module sigplot-data-service
 
-go 1.16
+go 1.19
 
 require (
-	github.com/elazarl/go-bindata-assetfs v1.0.0
+	github.com/elazarl/go-bindata-assetfs v1.0.1
+	github.com/minio/minio-go/v6 v6.0.57
+	github.com/tkanos/gonfig v0.0.0-20210106201359-53e13348de2f
+	gonum.org/v1/gonum v0.12.0
+)
+
+require (
 	github.com/ghodss/yaml v1.0.0 // indirect
-	github.com/minio/minio-go/v6 v6.0.47
-	github.com/tkanos/gonfig v0.0.0-20181112185242-896f3d81fadf
-	gonum.org/v1/gonum v0.6.2
-	gopkg.in/yaml.v2 v2.2.8 // indirect
+	github.com/json-iterator/go v1.1.9 // indirect
+	github.com/klauspost/cpuid v1.2.3 // indirect
+	github.com/minio/md5-simd v1.1.0 // indirect
+	github.com/minio/sha256-simd v0.1.1 // indirect
+	github.com/mitchellh/go-homedir v1.1.0 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
+	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
+	golang.org/x/net v0.0.0-20190522155817-f3200d17e092 // indirect
+	golang.org/x/sys v0.0.0-20190422165155-953cdadca894 // indirect
+	golang.org/x/text v0.3.7 // indirect
+	gopkg.in/ini.v1 v1.42.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
